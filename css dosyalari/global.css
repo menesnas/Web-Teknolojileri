@@ -1,0 +1,77 @@
+/*     Sınıflar     */
+
+/*    TEXTS  */
+.textcenter {
+    text-align: center;
+}
+
+.headingsmall {
+    font-size: 1.25rem;
+}
+
+.headingmed {
+    font-size: 1.50rem;
+}
+
+.headingbig {
+    font-size: 1.75rem;
+}
+
+/* COLORS */
+
+.bg-dark-gray {
+    background: darkgray;
+}
+
+.bg-light-gray {
+    background: lightgray;
+}
+
+.bg-black {
+    background: black;
+}
+
+/* image */
+.image {
+    height: 7rem;
+    width: 10rem;
+    border-radius: 7rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*    CONTAINER  */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*   hakkımda   */
+.hakkımdabaslik {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+}
+
+.hakkımdabaslik h2 {
+    flex-direction: column;
+    align-self: center;
+}
+
+.bilgi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.hakkımdabilgileri {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    width: 70%;
+    margin-top: 10rem;
+    align-items: flex-end;
+    color: aliceblue;
+}
+

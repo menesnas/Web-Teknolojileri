@@ -1,0 +1,55 @@
+/*   İşlemler     */
+* {
+    padding: 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*  navbar */ 
+#navbar{
+    color:  #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 80px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: lightpink;
+    border-radius: 5px;
+}
+/* Home */
+#home {
+    display: flex;
+    padding-top: 2rem;
+    background-color: rgb(10, 10, 20);
+    height: 90vh;
+}
+#home img {
+    display: flex;
+    max-width: 60vw;
+    max-height: 60vh;
+    float: left;
+    border-radius: 25px;
+}
+#home p {
+    display: flex;
+    text-align: right; 
+    color: lightgray;
+    flex-direction: column;
+}
+
