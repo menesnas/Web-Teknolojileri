@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENESNAS</title>
+    <title>menesnas</title>
     <link rel="stylesheet" href="css dosyalari/global.css">
     <link rel="stylesheet" href="css dosyalari/main.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css dosyalari/mobil.css">
     <link rel="stylesheet" media="(max-width:768px)" href="css dosyalari/tablet.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
 </head>
 
@@ -18,7 +19,7 @@
     <header class="bg-black">
         <div class="container">
             <nav id="navbar">
-                <h1 class="headingsmall"><a href="#">menesnas</a></h1>
+                <h1 class="headingsmall"><a href="index.html">menesnas</a></h1>
                 <ul>
                     <li><a href="#home">Hakkımda</a></li>
                     <li><a href="#">Şehrim</a></li>
@@ -34,24 +35,31 @@
         <img class="image" src="resimler/341339536_753447386425397_3793463089102603977_n.jpg" alt="Muhammet Enes Nas">
         <h2 class="headingmed">Muhammet Enes Nas</h2>
     </div>
+    
     <section id="home">
+        <div class="containerhome">
         <div class="bilgi">
             <img src="resimler/1.jpg" alt="Muhammet Enes Nas">
         </div>
         <div class="hakkımdabilgileri">
             <h3 class="headingbig">Hakkımda</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur doloribus eos cum qui exercitationem
-                soluta alias porro officia a, magnam doloremque laboriosam rerum eveniet fugiat itaque quod, veniam id
-                maxime nobis tempora ab excepturi sit. Repudiandae quidem velit natus facilis suscipit qui
-                exercitationem itaque totam, quae, aperiam doloremque assumenda. Omnis consequuntur rem dolores, nemo
-                impedit sint molestiae fugiat, blanditiis nam, maxime fuga voluptates aspernatur. Distinctio enim
-                expedita dolores reprehenderit doloribus eos commodi aperiam perferendis? Hic iure nesciunt deserunt
-                facere culpa laborum, numquam aperiam asperiores maxime exercitationem ratione reprehenderit illum vero
-                laudantium et adipisci provident? Modi possimus quae dolorum quos neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto consequuntur nisi sequi praesentium,
+                velit magni obcaecati voluptatem ea corporis, necessitatibus omnis enim ut, ipsa unde est quia modi
+                accusantium. Voluptatibus totam blanditiis incidunt nulla quae similique dolores quidem aspernatur
+                accusamus.
+            </p>
+            <br>
+            <p id="cv">
+                Özgeçmişe ulaşmak için : <a href="ozgecmis.html">TIKLAYINIZ</a>
+            </p>
         </div>
+    </div>
     </section>
+
     <section id="hakkımdadetay" class="textcenter">
-        <h3>İlgilendiğim ve Yapmayı sevdiğim faaliyetler ↓</h3>
+        <div class="container2">
+        <h3>İlgilendiğim konular ve Yapmayı sevdiğim faaliyetler ↓</h3>
+        <h4 id="ozg">Daha fazla bilgi için <a href="">TIKLAYINIZ</a></h4>
         <div class="items">
             <article class="item">
                 <h4 class="hakkımdadetaystil">Programlama Dilleri</h4>
@@ -84,7 +92,38 @@
                 </ul>
             </article>
         </div>
+    </div>
     </section>
+    <footer id="girisson">
+        <div class='girissondiv'>
+            <div id='tarih-bolumu'></div>
+            <div id='saat-bolumu'></div>
+        </div>
+        <div class="sosyalmedya">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/muhammet-enes-nas-84a097224/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></i></li>
+                <li><i class="fa-regular fa-envelope"></i> muhammet.nas1@ogr.sakarya.edu.tr</li>
+                <li><a href="https://github.com/menesnas" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- tarih saat jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $(document).ready(function () {
+                var interval = setInterval(function () {
+                    var momentNow = moment();
+                    $('#tarih-bolumu').html(momentNow.format('DD.MM.YYYY'));
+                    $('#saat-bolumu').html(momentNow.format('hh:mm:ss'));
+                }, 100);
+            });
+        });
+    </script>
+    <!-- tarih saat jQuery -->
+
 </body>
 
 </html>

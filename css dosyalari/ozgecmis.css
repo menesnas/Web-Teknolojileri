@@ -1,0 +1,122 @@
+/*   ÖZ GEÇMİŞ SAYFASI İÇİN GENEL CSS KODLARI   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#nav-og {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-og a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    
+}
+#nav-og a:hover {
+    background-color: #fff;
+    color: black;
+    transition: .4s;
+    border-radius: 4px;
+    letter-spacing: 0.3rem;
+    overflow: hidden;
+}
+#nav-og h5 {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav-og h5:hover{
+    letter-spacing: 0.3rem;
+    background-color: #fff;
+    color: black;
+    transition: .4s;
+    border-radius: 4px;
+}
+
+/* background image  */
+.backimage {
+    width: 100%;
+    height: 100vh;
+    background-color: darkgray;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+}
+.backimage img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10rem;
+    align-self: center;
+}
+.backimage h4 {
+    margin-top: 0.5rem;
+}
+.backimage h4 a {
+    padding: 0.1rem;
+    color: #fff;
+    background-color: darkgrey;
+}
+.backimage h4 a:hover{
+    overflow: hidden;
+    color: darkgrey;
+    background-color: black;
+    transition: .4s;
+    border-radius: 5px;
+    letter-spacing: 0.1rem;
+}
+.backimage ul li{
+    padding-top: 1rem;
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 1px;
+}
+.backimage h6 {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+
+    border-radius: 2px;
+    letter-spacing: 0.1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    justify-content: flex-start;
+}
+.backimage h6 a:hover{
+    background-color: #000;
+    color: darkgray;
+    letter-spacing: 0.2rem;
+    transition: .4s;
+    border-radius: 5px;
+}
+.backimage p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+}
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 1rem;
+}

@@ -7,6 +7,7 @@
 a {
     text-decoration: none;
     color: #fff;
+    transition: .4s;
 }
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -37,12 +38,12 @@ html {
     display: flex;
     padding-top: 2rem;
     background-color: rgb(10, 10, 20);
-    height: 90vh;
+    height: 80vh;
 }
 #home img {
     display: flex;
-    max-width: 20rem;
-    max-height: 20rem;
+    max-width: 25rem;
+    max-height: 25rem;
     float: left;
     border-radius: 25px;
     flex-direction: column;
@@ -55,10 +56,24 @@ html {
     color: lightgray;
     flex-direction: column;
 }
+#home #cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: small;
+    color: lightpink;
+    text-align: center;
+}
+#home #cv  a:hover{
+    color: blueviolet;
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid blueviolet;
+}
 /* Hakkımda section*/
 #hakkımdadetay{
     background-color: rgb(10, 10, 20);
-    height: 90vh;
+    height: 70vh;
 }
 #hakkımdadetay h3{
     color: rgb(136, 254, 254);
@@ -68,7 +83,6 @@ html {
 #hakkımdadetay .items {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     max-width: 100%;    
 }
 #hakkımdadetay .items .item{
@@ -80,4 +94,40 @@ html {
     margin-top: 2rem;
     list-style-type: none;
     text-align: center;
+}
+/* tarih saat*/
+#tarih-bolumu {
+    font-size: 1rem;
+    color:#fff;
+}
+#saat-bolumu {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top:0.1rem;
+}
+/* footer */
+#girisson{
+    background-color: rgb(10, 10, 20);
+    height: 10rem;
+}
+#girisson .sosyalmedya{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#girisson .sosyalmedya ul li{
+    list-style-type: none;
+    padding: 0.2rem;
+}
+/* ozgecmis */
+#ozg {
+    color: rgb(136, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem;
+    padding-top: 0.5rem;
+}
+#ozg a:hover {
+    background-color: rgb(136, 254, 254);
+    color: #000;
+    border-radius: 5px;
 }
