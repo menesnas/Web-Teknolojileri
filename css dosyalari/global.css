@@ -16,6 +16,10 @@
 .headingbig {
     font-size: 1.75rem;
 }
+.hakkımdadetaystil{
+    text-decoration: underline;
+    color:rgb(228, 150, 248);
+}
 
 /* COLORS */
 
@@ -61,17 +65,20 @@
 
 .bilgi {
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 .hakkımdabilgileri {
     display: flex;
     flex-direction: column;
-    padding-left: 5rem;
-    width: 70%;
+    padding-left: 8rem;
+    width: 60%;
     margin-top: 10rem;
-    align-items: flex-end;
+    align-items: center;
     color: aliceblue;
+}
+.hakkımdabilgileri h3 {
+    margin-bottom: 1.25rem;
 }
 

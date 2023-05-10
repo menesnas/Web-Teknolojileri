@@ -13,7 +13,7 @@ html {
 }
 /*  navbar */ 
 #navbar{
-    color:  #fff;
+    color:  black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,15 +41,43 @@ html {
 }
 #home img {
     display: flex;
-    max-width: 60vw;
-    max-height: 60vh;
+    max-width: 20rem;
+    max-height: 20rem;
     float: left;
     border-radius: 25px;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 3rem;
 }
 #home p {
     display: flex;
-    text-align: right; 
+    text-align: left; 
     color: lightgray;
     flex-direction: column;
 }
-
+/* Hakkımda section*/
+#hakkımdadetay{
+    background-color: rgb(10, 10, 20);
+    height: 90vh;
+}
+#hakkımdadetay h3{
+    color: rgb(136, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+}
+#hakkımdadetay .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;    
+}
+#hakkımdadetay .items .item{
+    color: #fff;
+    margin-top: 1rem;
+    padding: 5rem;
+}
+#hakkımdadetay .items .item ul li{
+    margin-top: 2rem;
+    list-style-type: none;
+    text-align: center;
+}
