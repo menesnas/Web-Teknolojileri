@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:bisque ;
+}
+a:hover {
+    text-decoration: none;
+}
+/* navbar */
+.navsehir {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(60, 50, 40);
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    align-items: center;
+}
+.navsehir h2{
+    font-family: fantasy;
+    padding-left: 1rem;
+    letter-spacing: 0.5rem;
+    margin: 0;
+}
+.navsehir h2 a:hover{
+    color:bisque ;
+    transition: .4s;
+    background-color: bisque;
+    color: rgb(60, 50, 40);
+    border-radius: 3px;
+    letter-spacing: 0.75rem;
+}
+.navsehir:nth-child(1) a:hover{
+    color:rgb(60, 50, 40) ;
+    transition: .4s;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.navsehir i {
+    font-size: 2rem;
+}
+/* Şehrim ilk kısım */
+#sehirbilgi .container5 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(60, 50, 40);
+    padding-top: 2rem;
+}
+#sehirbilgi .container5 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+#sehirbilgi .container5 h6{
+    font-size: 1rem;
+    padding-left: 2rem;
+}
+#sehirbilgi .container5 p{
+    font-size: 1rem;    
+    text-align: center;
+    font-family: initial;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+/* ŞEHİR HAKKINDA DETAYLI BİLGİLER */
+#sehirbilgi .container6 {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 2rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* section 2 slider */
+.eserlerdiv {
+    background-color: antiquewhite;
+    text-align: center;
+}
+.eserlerdiv h2{
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    color: rgb(60, 50, 40);
+    text-decoration:  wavy;
+}
+.eserlerdiv div{
+    padding: 1rem;
+}
+.eserlerdiv h5{
+    color: #fff;
+    font-family: initial;
+    font-size: 2rem;
+}
+#eserler .divmiras {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: antiquewhite;
+}
+#eserler .divmiras a{
+    color: antiquewhite;
+}
+#eserler .divmiras a:hover{
+    color: antiquewhite;
+    border-radius: 3px;
+    transition: .4s;
+    letter-spacing: 0.5rem;
+}

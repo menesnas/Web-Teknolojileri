@@ -60,7 +60,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-size: small;
+    font-size: medium;
     color: lightpink;
     text-align: center;
 }
@@ -69,6 +69,7 @@ html {
     background-color: #fff;
     border-radius: 1rem;
     border: 1px solid blueviolet;
+    
 }
 /* Hakkımda section*/
 #hakkımdadetay{
