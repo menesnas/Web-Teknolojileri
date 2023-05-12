@@ -1,0 +1,11 @@
+/*    tablet-mobil responsive  */
+#ekbilgiler {
+    background-color: rgb(60, 50, 40);
+}
+#ekbilgiler .container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    flex-flow: column wrap;
+}
