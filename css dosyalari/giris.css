@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body a i {
+    color: black;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+#formid h6 {
+    font-size: 1.25rem;
+    color: antiquewhite;
+    padding-top: 1.5rem;
+}
+#formid {
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+}
+#formid input {
+    background-color: antiquewhite;
+    color: black;
+}
+#formid input:last-child {
+    padding: 0.3rem;
+    font-weight: bold;
+}
+.container font{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.php {
+    color: white;
+    text-align: center;
+}
+.container a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.container a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: .4s;
+    letter-spacing: 0.5rem;
+}
