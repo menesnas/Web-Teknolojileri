@@ -29,10 +29,7 @@ body a i {
 #formid input {
     background-color: antiquewhite;
     color: black;
-}
-#formid input:last-child {
-    padding: 0.3rem;
-    font-weight: bold;
+    
 }
 .container font{
     display: flex;

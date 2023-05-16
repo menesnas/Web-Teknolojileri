@@ -32,7 +32,8 @@
         <form id="formid" action="login.php" method="post">
             <h6>Kullanıcı Adı :</h6> <br><input type="email" name="ad">
             <h6>Şifre :</h6> <br><input type="password" name="sifre"><br>
-            <input type="submit" value="Giriş Yap">
+            <input type="submit" value="Giriş Yap"><br>
+            
         </form>
         <div class="php">
         <?php
@@ -42,7 +43,7 @@
      if(isset($_POST['ad']) =="" || isset($_POST['sifre'])=="" )
      {
         
-         echo"<font color = $color2>Lütfen Tüm Alanları Doldurun</font>";	
+         echo"<font color = $color2>*Lütfen Tüm Alanları Doldurun</font>";	
      }
      else
      {
