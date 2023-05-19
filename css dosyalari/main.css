@@ -55,6 +55,7 @@ html {
     text-align: left; 
     color: lightgray;
     flex-direction: column;
+    font-size: 1.25rem;
 }
 #home #cv {
     display: flex;
