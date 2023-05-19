@@ -24,6 +24,7 @@ footer {
 }
 #baslik .navbar .maxw a{
     padding: 0.3rem;
+<<<<<<< HEAD
 }    
 #baslik .navbar .maxw a:hover{
     letter-spacing: 0.1rem;
@@ -31,6 +32,11 @@ footer {
     background-color: #fff;
     transition: .4s;
     border-radius: 5px;
+=======
+}   
+#baslik .navbar .maxw a:hover{
+    color: mediumseagreen;
+>>>>>>> 43438873bf234a69dec809866f7094d782c30123
 }   
 .bg-sp{
     background-color: rgb(67, 18, 80);
@@ -73,6 +79,7 @@ footer {
 .adresbilgi a:hover{
     color: #fff;
 }
+<<<<<<< HEAD
 .bilgiler {
     padding-top: 5rem;
     font-size: 2rem;
@@ -84,3 +91,5 @@ footer {
     color: black;
     
 }
+=======
+>>>>>>> 43438873bf234a69dec809866f7094d782c30123
