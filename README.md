@@ -3,7 +3,7 @@
  **Projenin amacı :**
  *Kendi hakkımda oluşturduğum websitesi*
 
-[menesnas.com](menesnas.infinityfreeapp.com)
+[menesnas.com](http://menesnas.infinityfreeapp.com)
 
 ## İçerikler
 * Hakkımda 
